@@ -150,7 +150,6 @@ App({
           // }
           if (res.data.code === -1) {
             // 登录态失效, 重新登录
-            console.log("~~~~~~~~~~~~~~~2~~~~~~~~~~~~~~~~~~~~~~");
             wx.hideNavigationBarLoading();
             App.doLogin();
           } else if (res.data.code === 0) {
