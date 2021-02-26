@@ -141,7 +141,6 @@ App({
         },
         data,
         success(res) {
-          console.log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
           // if (res.statusCode !== 200 || typeof res.data !== 'object') {
           //   debugger;
           //   console.log("~~~~~~~~~~~~~~~~1~~~~~~~~~~~~~~~~~~~~~");
